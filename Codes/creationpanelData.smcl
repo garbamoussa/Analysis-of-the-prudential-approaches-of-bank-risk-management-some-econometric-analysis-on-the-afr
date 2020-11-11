@@ -1,0 +1,535 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/garbamoussa/Desktop/Data/creationpanelData.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}12 Jan 2018, 18:01:54
+
+{com}. save "/Users/garbamoussa/Desktop/Data/WorkPanel.dta"
+{txt}file /Users/garbamoussa/Desktop/Data/WorkPanel.dta saved
+
+{com}. rename (D E F G H I J K L M N O P Q R S T U V W X Y Z AA AB AC) (1990 1991 1992 1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 )
+{res}{err}{it:oldnames} and {it:newnames} do not match
+{p 4 4 2}
+You specified 1 pattern or name
+for {it:oldname} and
+26 patterns or names for {it:newnames}.
+{p_end}
+{txt}{search r(198):r(198);}
+
+{com}. rename (D E F G H I J K L M N O P Q R S T U V W X Y Z AA AB AC) (year)
+{res}{err}1 new name specified repeatedly in {it:newname}
+{p 4 4 2}
+You
+requested the name {bf:year} be assigned to
+26 existing variables:
+{bf:D},
+{bf:E}{err},
+{bf:F}{err},
+{bf:G}{err},
+{bf:H}{err},
+{bf:I}{err},
+{bf:J}{err},
+{bf:K}{err},
+...,
+and
+{bf:AC}{err}.
+{p_end}
+{txt}{search r(198):r(198);}
+
+{com}. list D
+{txt}
+     {c TLC}{hline 11}{c TRC}
+     {c |} {res}        D {txt}{c |}
+     {c LT}{hline 11}{c RT}
+  1. {c |} {res}48.909922 {txt}{c |}
+  2. {c |} {res}11.253894 {txt}{c |}
+  3. {c |} {res}51.090812 {txt}{c |}
+  4. {c |} {res}25.025585 {txt}{c |}
+  5. {c |} {res} 24.20553 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+  6. {c |} {res}36.213041 {txt}{c |}
+  7. {c |} {res}31.944397 {txt}{c |}
+  8. {c |} {res}29.117863 {txt}{c |}
+  9. {c |} {res}4.2105263 {txt}{c |}
+ 10. {c |} {res}20.527698 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 11. {c |} {res}16.738008 {txt}{c |}
+ 12. {c |} {res}32.144654 {txt}{c |}
+ 13. {c |} {res}51.439572 {txt}{c |}
+ 14. {c |} {res} 70.73642 {txt}{c |}
+ 15. {c |} {res}66.547584 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 16. {c |} {res}58.059486 {txt}{c |}
+ 17. {c |} {res} 26.32993 {txt}{c |}
+ 18. {c |} {res}14.330025 {txt}{c |}
+ 19. {c |} {res}50.215433 {txt}{c |}
+ 20. {c |} {res}86.322638 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 21. {c |} {res}19.162011 {txt}{c |}
+ 22. {c |} {res}        . {txt}{c |}
+ 23. {c |} {res}52.916667 {txt}{c |}
+ 24. {c |} {res}17.436147 {txt}{c |}
+ 25. {c |} {res}34.023554 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 26. {c |} {res}32.366167 {txt}{c |}
+ 27. {c |} {res}.24158757 {txt}{c |}
+ 28. {c |} {res}66.666667 {txt}{c |}
+ 29. {c |} {res}12.814343 {txt}{c |}
+ 30. {c |} {res}22.873111 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 31. {c |} {res}.69990847 {txt}{c |}
+ 32. {c |} {res}28.691201 {txt}{c |}
+ 33. {c |} {res} 24.46613 {txt}{c |}
+ 34. {c |} {res}25.771048 {txt}{c |}
+ 35. {c |} {res}38.366782 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 36. {c |} {res}37.271496 {txt}{c |}
+ 37. {c |} {res} 52.84948 {txt}{c |}
+ 38. {c |} {res}.04420111 {txt}{c |}
+ 39. {c |} {res}34.370006 {txt}{c |}
+ 40. {c |} {res}        . {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 41. {c |} {res}27.649948 {txt}{c |}
+ 42. {c |} {res}52.040576 {txt}{c |}
+ 43. {c |} {res}15.199818 {txt}{c |}
+ 44. {c |} {res}34.961333 {txt}{c |}
+ 45. {c |} {res}27.807307 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 46. {c |} {res}71.817854 {txt}{c |}
+ 47. {c |} {res}52.156541 {txt}{c |}
+ 48. {c |} {res}26.363945 {txt}{c |}
+ 49. {c |} {res}.05730659 {txt}{c |}
+ 50. {c |} {res}        . {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 51. {c |} {res}85.380525 {txt}{c |}
+ 52. {c |} {res} 11.48266 {txt}{c |}
+ 53. {c |} {res}39.602821 {txt}{c |}
+ 54. {c |} {res}37.914213 {txt}{c |}
+ 55. {c |} {res}        0 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 56. {c |} {res}29.562103 {txt}{c |}
+ 57. {c |} {res}43.675889 {txt}{c |}
+ 58. {c |} {res}78.805121 {txt}{c |}
+ 59. {c |} {res} 66.31016 {txt}{c |}
+ 60. {c |} {res}25.593483 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 61. {c |} {res}49.970588 {txt}{c |}
+ 62. {c |} {res}.00064384 {txt}{c |}
+ 63. {c |} {res}44.307577 {txt}{c |}
+ 64. {c |} {res}46.296296 {txt}{c |}
+ 65. {c |} {res}84.632969 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 66. {c |} {res}28.349273 {txt}{c |}
+ 67. {c |} {res}        . {txt}{c |}
+ 68. {c |} {res}72.714273 {txt}{c |}
+ 69. {c |} {res}31.874507 {txt}{c |}
+ 70. {c |} {res}33.088893 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 71. {c |} {res}4.2089985 {txt}{c |}
+ 72. {c |} {res}20.040058 {txt}{c |}
+ 73. {c |} {res}34.498633 {txt}{c |}
+ 74. {c |} {res}32.828364 {txt}{c |}
+ 75. {c |} {res}28.419958 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 76. {c |} {res}24.312389 {txt}{c |}
+ 77. {c |} {res}65.437714 {txt}{c |}
+ 78. {c |} {res} 29.61672 {txt}{c |}
+ 79. {c |} {res}6.0701754 {txt}{c |}
+ 80. {c |} {res}21.505185 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 81. {c |} {res}        . {txt}{c |}
+ 82. {c |} {res}6.7498911 {txt}{c |}
+ 83. {c |} {res}5.5723741 {txt}{c |}
+ 84. {c |} {res}1.8382605 {txt}{c |}
+ 85. {c |} {res} .1605985 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 86. {c |} {res}6.0998152 {txt}{c |}
+ 87. {c |} {res}25.806671 {txt}{c |}
+ 88. {c |} {res}31.819021 {txt}{c |}
+ 89. {c |} {res}1.1049411 {txt}{c |}
+ 90. {c |} {res}68.431157 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 91. {c |} {res}1.2675482 {txt}{c |}
+ 92. {c |} {res}8.3002425 {txt}{c |}
+ 93. {c |} {res} 4.358707 {txt}{c |}
+ 94. {c |} {res}73.328801 {txt}{c |}
+ 95. {c |} {res}       15 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+ 96. {c |} {res}42.307692 {txt}{c |}
+ 97. {c |} {res}66.037736 {txt}{c |}
+ 98. {c |} {res}.19360269 {txt}{c |}
+ 99. {c |} {res}52.654663 {txt}{c |}
+100. {c |} {res} 76.45104 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+101. {c |} {res}12.805474 {txt}{c |}
+102. {c |} {res}51.173173 {txt}{c |}
+103. {c |} {res}.12332769 {txt}{c |}
+104. {c |} {res}35.737705 {txt}{c |}
+105. {c |} {res}51.031195 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+106. {c |} {res}30.555398 {txt}{c |}
+107. {c |} {res}31.599591 {txt}{c |}
+108. {c |} {res}   40.625 {txt}{c |}
+109. {c |} {res}36.421623 {txt}{c |}
+110. {c |} {res}28.683069 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+111. {c |} {res}33.015874 {txt}{c |}
+112. {c |} {res}1.3175231 {txt}{c |}
+113. {c |} {res}38.770432 {txt}{c |}
+114. {c |} {res}31.030632 {txt}{c |}
+115. {c |} {res}        . {txt}{c |}
+     {c LT}{hline 11}{c RT}
+116. {c |} {res}51.016143 {txt}{c |}
+117. {c |} {res}        . {txt}{c |}
+118. {c |} {res}18.382353 {txt}{c |}
+119. {c |} {res}11.100157 {txt}{c |}
+120. {c |} {res}        . {txt}{c |}
+     {c LT}{hline 11}{c RT}
+121. {c |} {res}9.7048981 {txt}{c |}
+122. {c |} {res}23.544382 {txt}{c |}
+123. {c |} {res}3.3333333 {txt}{c |}
+124. {c |} {res}1.7732536 {txt}{c |}
+125. {c |} {res}35.885697 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+126. {c |} {res}        . {txt}{c |}
+127. {c |} {res}33.248741 {txt}{c |}
+128. {c |} {res}35.863154 {txt}{c |}
+129. {c |} {res}5.4827527 {txt}{c |}
+130. {c |} {res}  1.09375 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+131. {c |} {res}60.008569 {txt}{c |}
+132. {c |} {res} 2.148238 {txt}{c |}
+133. {c |} {res}46.542751 {txt}{c |}
+134. {c |} {res}8.0692088 {txt}{c |}
+135. {c |} {res}        . {txt}{c |}
+     {c LT}{hline 11}{c RT}
+136. {c |} {res}55.161627 {txt}{c |}
+137. {c |} {res}.40263898 {txt}{c |}
+138. {c |} {res}20.246305 {txt}{c |}
+139. {c |} {res}41.323717 {txt}{c |}
+140. {c |} {res}68.105311 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+141. {c |} {res}35.651187 {txt}{c |}
+142. {c |} {res}10.642665 {txt}{c |}
+143. {c |} {res}45.897155 {txt}{c |}
+144. {c |} {res}1.5354859 {txt}{c |}
+145. {c |} {res} 18.92245 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+146. {c |} {res}37.510387 {txt}{c |}
+147. {c |} {res}10.219194 {txt}{c |}
+148. {c |} {res} 33.21606 {txt}{c |}
+149. {c |} {res}33.685315 {txt}{c |}
+150. {c |} {res}        0 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+151. {c |} {res}36.679199 {txt}{c |}
+152. {c |} {res}30.881357 {txt}{c |}
+153. {c |} {res}.00646204 {txt}{c |}
+154. {c |} {res} 27.78328 {txt}{c |}
+155. {c |} {res}3.2780718 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+156. {c |} {res} 67.79661 {txt}{c |}
+157. {c |} {res}60.875781 {txt}{c |}
+158. {c |} {res}21.984103 {txt}{c |}
+159. {c |} {res}        . {txt}{c |}
+160. {c |} {res}74.254737 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+161. {c |} {res}28.995397 {txt}{c |}
+162. {c |} {res}29.813221 {txt}{c |}
+163. {c |} {res}32.356257 {txt}{c |}
+164. {c |} {res}68.108961 {txt}{c |}
+165. {c |} {res}37.551913 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+166. {c |} {res}53.251951 {txt}{c |}
+167. {c |} {res}1.5083056 {txt}{c |}
+168. {c |} {res} 61.55027 {txt}{c |}
+169. {c |} {res}31.125564 {txt}{c |}
+170. {c |} {res}15.027322 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+171. {c |} {res}        0 {txt}{c |}
+172. {c |} {res}27.778504 {txt}{c |}
+173. {c |} {res}49.356465 {txt}{c |}
+174. {c |} {res} 12.89015 {txt}{c |}
+175. {c |} {res}16.510767 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+176. {c |} {res}.45448414 {txt}{c |}
+177. {c |} {res} 12.93237 {txt}{c |}
+178. {c |} {res}48.553472 {txt}{c |}
+179. {c |} {res}43.197562 {txt}{c |}
+180. {c |} {res}13.201773 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+181. {c |} {res} 29.52806 {txt}{c |}
+182. {c |} {res}        . {txt}{c |}
+183. {c |} {res}29.529207 {txt}{c |}
+184. {c |} {res}58.333333 {txt}{c |}
+185. {c |} {res} 27.44186 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+186. {c |} {res}88.413043 {txt}{c |}
+187. {c |} {res}5.3248094 {txt}{c |}
+188. {c |} {res}12.594227 {txt}{c |}
+189. {c |} {res}29.529207 {txt}{c |}
+190. {c |} {res}4.1387745 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+191. {c |} {res}63.129375 {txt}{c |}
+192. {c |} {res}23.777589 {txt}{c |}
+193. {c |} {res}31.800572 {txt}{c |}
+194. {c |} {res}7.6177365 {txt}{c |}
+195. {c |} {res}71.025976 {txt}{c |}
+     {c LT}{hline 11}{c RT}
+196. {c |} {res}57.293525 {txt}{c |}
+     {c BLC}{hline 11}{c BRC}
+
+{com}. list CountryName
+{txt}
+     {c TLC}{hline 52}{c TRC}
+     {c |} {res}                                       CountryName {txt}{c |}
+     {c LT}{hline 52}{c RT}
+  1. {c |} {res}                                            Angola {txt}{c |}
+  2. {c |} {res}                                           Burundi {txt}{c |}
+  3. {c |} {res}                                             Benin {txt}{c |}
+  4. {c |} {res}                                      Burkina Faso {txt}{c |}
+  5. {c |} {res}                                          Botswana {txt}{c |}
+     {c LT}{hline 52}{c RT}
+  6. {c |} {res}                          Central African Republic {txt}{c |}
+  7. {c |} {res}                    Central Europe and the Baltics {txt}{c |}
+  8. {c |} {res}                                       Switzerland {txt}{c |}
+  9. {c |} {res}                                   Channel Islands {txt}{c |}
+ 10. {c |} {res}                                             Chile {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 11. {c |} {res}                                             China {txt}{c |}
+ 12. {c |} {res}                                     Cote d'Ivoire {txt}{c |}
+ 13. {c |} {res}                                          Cameroon {txt}{c |}
+ 14. {c |} {res}                                  Congo, Dem. Rep. {txt}{c |}
+ 15. {c |} {res}                                       Congo, Rep. {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 16. {c |} {res}                                          Colombia {txt}{c |}
+ 17. {c |} {res}                                           Comoros {txt}{c |}
+ 18. {c |} {res}                                        Cabo Verde {txt}{c |}
+ 19. {c |} {res}                                        Costa Rica {txt}{c |}
+ 20. {c |} {res}                            Caribbean small states {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 21. {c |} {res}                                              Cuba {txt}{c |}
+ 22. {c |} {res}                                           Curacao {txt}{c |}
+ 23. {c |} {res}                                    Cayman Islands {txt}{c |}
+ 24. {c |} {res}                                            Cyprus {txt}{c |}
+ 25. {c |} {res}                                    Czech Republic {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 26. {c |} {res}                                           Germany {txt}{c |}
+ 27. {c |} {res}                                          Djibouti {txt}{c |}
+ 28. {c |} {res}                                          Dominica {txt}{c |}
+ 29. {c |} {res}                                           Denmark {txt}{c |}
+ 30. {c |} {res}                                Dominican Republic {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 31. {c |} {res}                                           Algeria {txt}{c |}
+ 32. {c |} {res}       East Asia & Pacific (excluding high income) {txt}{c |}
+ 33. {c |} {res}                        Early-demographic dividend {txt}{c |}
+ 34. {c |} {res}                               East Asia & Pacific {txt}{c |}
+ 35. {c |} {res}     Europe & Central Asia (excluding high income) {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 36. {c |} {res}                             Europe & Central Asia {txt}{c |}
+ 37. {c |} {res}                                           Ecuador {txt}{c |}
+ 38. {c |} {res}                                  Egypt, Arab Rep. {txt}{c |}
+ 39. {c |} {res}                                         Euro area {txt}{c |}
+ 40. {c |} {res}                                           Eritrea {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 41. {c |} {res}                                             Spain {txt}{c |}
+ 42. {c |} {res}                                           Estonia {txt}{c |}
+ 43. {c |} {res}                                          Ethiopia {txt}{c |}
+ 44. {c |} {res}                                    European Union {txt}{c |}
+ 45. {c |} {res}          Fragile and conflict affected situations {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 46. {c |} {res}                                           Finland {txt}{c |}
+ 47. {c |} {res}                                              Fiji {txt}{c |}
+ 48. {c |} {res}                                            France {txt}{c |}
+ 49. {c |} {res}                                     Faroe Islands {txt}{c |}
+ 50. {c |} {res}                             Micronesia, Fed. Sts. {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 51. {c |} {res}                                             Gabon {txt}{c |}
+ 52. {c |} {res}                                    United Kingdom {txt}{c |}
+ 53. {c |} {res}                                           Georgia {txt}{c |}
+ 54. {c |} {res}                                             Ghana {txt}{c |}
+ 55. {c |} {res}                                         Gibraltar {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 56. {c |} {res}                                            Guinea {txt}{c |}
+ 57. {c |} {res}                                       Gambia, The {txt}{c |}
+ 58. {c |} {res}                                     Guinea-Bissau {txt}{c |}
+ 59. {c |} {res}                                 Equatorial Guinea {txt}{c |}
+ 60. {c |} {res}                                            Greece {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 61. {c |} {res}                                           Grenada {txt}{c |}
+ 62. {c |} {res}                                         Greenland {txt}{c |}
+ 63. {c |} {res}                                         Guatemala {txt}{c |}
+ 64. {c |} {res}                                              Guam {txt}{c |}
+ 65. {c |} {res}                                            Guyana {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 66. {c |} {res}                                       High income {txt}{c |}
+ 67. {c |} {res}                              Hong Kong SAR, China {txt}{c |}
+ 68. {c |} {res}                                          Honduras {txt}{c |}
+ 69. {c |} {res}            Heavily indebted poor countries (HIPC) {txt}{c |}
+ 70. {c |} {res}                                           Croatia {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 71. {c |} {res}                                             Haiti {txt}{c |}
+ 72. {c |} {res}                                           Hungary {txt}{c |}
+ 73. {c |} {res}                                         IBRD only {txt}{c |}
+ 74. {c |} {res}                                  IDA & IBRD total {txt}{c |}
+ 75. {c |} {res}                                         IDA total {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 76. {c |} {res}                                         IDA blend {txt}{c |}
+ 77. {c |} {res}                                         Indonesia {txt}{c |}
+ 78. {c |} {res}                                          IDA only {txt}{c |}
+ 79. {c |} {res}                                       Isle of Man {txt}{c |}
+ 80. {c |} {res}                                             India {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 81. {c |} {res}                                    Not classified {txt}{c |}
+ 82. {c |} {res}                                           Ireland {txt}{c |}
+ 83. {c |} {res}                                Iran, Islamic Rep. {txt}{c |}
+ 84. {c |} {res}                                              Iraq {txt}{c |}
+ 85. {c |} {res}                                           Iceland {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 86. {c |} {res}                                            Israel {txt}{c |}
+ 87. {c |} {res}                                             Italy {txt}{c |}
+ 88. {c |} {res}                                           Jamaica {txt}{c |}
+ 89. {c |} {res}                                            Jordan {txt}{c |}
+ 90. {c |} {res}                                             Japan {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 91. {c |} {res}                                        Kazakhstan {txt}{c |}
+ 92. {c |} {res}                                             Kenya {txt}{c |}
+ 93. {c |} {res}                                   Kyrgyz Republic {txt}{c |}
+ 94. {c |} {res}                                          Cambodia {txt}{c |}
+ 95. {c |} {res}                                          Kiribati {txt}{c |}
+     {c LT}{hline 52}{c RT}
+ 96. {c |} {res}                               St. Kitts and Nevis {txt}{c |}
+ 97. {c |} {res}                                       Korea, Rep. {txt}{c |}
+ 98. {c |} {res}                                            Kuwait {txt}{c |}
+ 99. {c |} {res} Latin America & Caribbean (excluding high income) {txt}{c |}
+100. {c |} {res}                                           Lao PDR {txt}{c |}
+     {c LT}{hline 52}{c RT}
+101. {c |} {res}                                           Lebanon {txt}{c |}
+102. {c |} {res}                                           Liberia {txt}{c |}
+103. {c |} {res}                                             Libya {txt}{c |}
+104. {c |} {res}                                         St. Lucia {txt}{c |}
+105. {c |} {res}                         Latin America & Caribbean {txt}{c |}
+     {c LT}{hline 52}{c RT}
+106. {c |} {res}      Least developed countries: UN classification {txt}{c |}
+107. {c |} {res}                                        Low income {txt}{c |}
+108. {c |} {res}                                     Liechtenstein {txt}{c |}
+109. {c |} {res}                                         Sri Lanka {txt}{c |}
+110. {c |} {res}                               Lower middle income {txt}{c |}
+     {c LT}{hline 52}{c RT}
+111. {c |} {res}                               Low & middle income {txt}{c |}
+112. {c |} {res}                                           Lesotho {txt}{c |}
+113. {c |} {res}                         Late-demographic dividend {txt}{c |}
+114. {c |} {res}                                         Lithuania {txt}{c |}
+115. {c |} {res}                                        Luxembourg {txt}{c |}
+     {c LT}{hline 52}{c RT}
+116. {c |} {res}                                            Latvia {txt}{c |}
+117. {c |} {res}                                  Macao SAR, China {txt}{c |}
+118. {c |} {res}                          St. Martin (French part) {txt}{c |}
+119. {c |} {res}                                           Morocco {txt}{c |}
+120. {c |} {res}                                            Monaco {txt}{c |}
+     {c LT}{hline 52}{c RT}
+121. {c |} {res}                                           Moldova {txt}{c |}
+122. {c |} {res}                                        Madagascar {txt}{c |}
+123. {c |} {res}                                          Maldives {txt}{c |}
+124. {c |} {res}                        Middle East & North Africa {txt}{c |}
+125. {c |} {res}                                            Mexico {txt}{c |}
+     {c LT}{hline 52}{c RT}
+126. {c |} {res}                                  Marshall Islands {txt}{c |}
+127. {c |} {res}                                     Middle income {txt}{c |}
+128. {c |} {res}                                    Macedonia, FYR {txt}{c |}
+129. {c |} {res}                                              Mali {txt}{c |}
+130. {c |} {res}                                             Malta {txt}{c |}
+     {c LT}{hline 52}{c RT}
+131. {c |} {res}                                           Myanmar {txt}{c |}
+132. {c |} {res}Middle East & North Africa (excluding high income) {txt}{c |}
+133. {c |} {res}                                        Montenegro {txt}{c |}
+134. {c |} {res}                                          Mongolia {txt}{c |}
+135. {c |} {res}                          Northern Mariana Islands {txt}{c |}
+     {c LT}{hline 52}{c RT}
+136. {c |} {res}                                        Mozambique {txt}{c |}
+137. {c |} {res}                                        Mauritania {txt}{c |}
+138. {c |} {res}                                         Mauritius {txt}{c |}
+139. {c |} {res}                                            Malawi {txt}{c |}
+140. {c |} {res}                                          Malaysia {txt}{c |}
+     {c LT}{hline 52}{c RT}
+141. {c |} {res}                                     North America {txt}{c |}
+142. {c |} {res}                                           Namibia {txt}{c |}
+143. {c |} {res}                                     New Caledonia {txt}{c |}
+144. {c |} {res}                                             Niger {txt}{c |}
+145. {c |} {res}                                           Nigeria {txt}{c |}
+     {c LT}{hline 52}{c RT}
+146. {c |} {res}                                         Nicaragua {txt}{c |}
+147. {c |} {res}                                       Netherlands {txt}{c |}
+148. {c |} {res}                                            Norway {txt}{c |}
+149. {c |} {res}                                             Nepal {txt}{c |}
+150. {c |} {res}                                             Nauru {txt}{c |}
+     {c LT}{hline 52}{c RT}
+151. {c |} {res}                                       New Zealand {txt}{c |}
+152. {c |} {res}                                      OECD members {txt}{c |}
+153. {c |} {res}                                              Oman {txt}{c |}
+154. {c |} {res}                                Other small states {txt}{c |}
+155. {c |} {res}                                          Pakistan {txt}{c |}
+     {c LT}{hline 52}{c RT}
+156. {c |} {res}                                            Panama {txt}{c |}
+157. {c |} {res}                                              Peru {txt}{c |}
+158. {c |} {res}                                       Philippines {txt}{c |}
+159. {c |} {res}                                             Palau {txt}{c |}
+160. {c |} {res}                                  Papua New Guinea {txt}{c |}
+     {c LT}{hline 52}{c RT}
+161. {c |} {res}                                            Poland {txt}{c |}
+162. {c |} {res}                          Pre-demographic dividend {txt}{c |}
+163. {c |} {res}                                       Puerto Rico {txt}{c |}
+164. {c |} {res}                         Korea, Dem. PeopleÍs Rep. {txt}{c |}
+165. {c |} {res}                                          Portugal {txt}{c |}
+     {c LT}{hline 52}{c RT}
+166. {c |} {res}                                          Paraguay {txt}{c |}
+167. {c |} {res}                                West Bank and Gaza {txt}{c |}
+168. {c |} {res}                       Pacific island small states {txt}{c |}
+169. {c |} {res}                         Post-demographic dividend {txt}{c |}
+170. {c |} {res}                                  French Polynesia {txt}{c |}
+     {c LT}{hline 52}{c RT}
+171. {c |} {res}                                             Qatar {txt}{c |}
+172. {c |} {res}                                           Romania {txt}{c |}
+173. {c |} {res}                                Russian Federation {txt}{c |}
+174. {c |} {res}                                            Rwanda {txt}{c |}
+175. {c |} {res}                                        South Asia {txt}{c |}
+     {c LT}{hline 52}{c RT}
+176. {c |} {res}                                      Saudi Arabia {txt}{c |}
+177. {c |} {res}                                             Sudan {txt}{c |}
+178. {c |} {res}                                           Senegal {txt}{c |}
+179. {c |} {res}                                      Sierra Leone {txt}{c |}
+180. {c |} {res}                                           Somalia {txt}{c |}
+     {c LT}{hline 52}{c RT}
+181. {c |} {res}        Sub-Saharan Africa (excluding high income) {txt}{c |}
+182. {c |} {res}                                       South Sudan {txt}{c |}
+183. {c |} {res}                                Sub-Saharan Africa {txt}{c |}
+184. {c |} {res}                             Sao Tome and Principe {txt}{c |}
+185. {c |} {res}                                         Swaziland {txt}{c |}
+     {c LT}{hline 52}{c RT}
+186. {c |} {res}                                        Seychelles {txt}{c |}
+187. {c |} {res}                                              Chad {txt}{c |}
+188. {c |} {res}                                              Togo {txt}{c |}
+189. {c |} {res}         Sub-Saharan Africa (IDA & IBRD countries) {txt}{c |}
+190. {c |} {res}                                           Tunisia {txt}{c |}
+     {c LT}{hline 52}{c RT}
+191. {c |} {res}                                          Tanzania {txt}{c |}
+192. {c |} {res}                                            Uganda {txt}{c |}
+193. {c |} {res}                                             World {txt}{c |}
+194. {c |} {res}                                      South Africa {txt}{c |}
+195. {c |} {res}                                            Zambia {txt}{c |}
+     {c LT}{hline 52}{c RT}
+196. {c |} {res}                                          Zimbabwe {txt}{c |}
+     {c BLC}{hline 52}{c BRC}
+
+{com}. List Angola
+{err}unrecognized command:  List
+{txt}{search r(199):r(199);}
+
+{com}. 
+. 
+. egen Countrynum = group(CountryName)
+
+. egen Y90 = group(D)
+{txt}(12 missing values generated)
+
+{com}. 
