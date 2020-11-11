@@ -1,4 +1,5 @@
 
+![Bank sample ](Visualizations/Rplot01.pdf "Legend")
 
 <h1 align=center>Analysis of the prudential approaches of bank risk management : some econometric analysis on the african banks</h1>
 
